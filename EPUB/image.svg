@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="256" height="256" version="1.1"
+     xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<rect fill="plum" height="256" width="256"/>
+	<image xlink:href="image.png" height="256" width="256"/>
+	<path d="M35.7,225.1C99.2,225.1,144.5,42,218.8,42" fill="none" id="text1"/>
+	<text>
+		<textPath startOffset="50%" text-anchor="middle" xlink:href="#text1">
+			<tspan font-size="16">This text should rest on a curved path.</tspan>
+		</textPath>
+	</text>
+</svg>

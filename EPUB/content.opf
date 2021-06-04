@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package xmlns="http://www.idpf.org/2007/opf"
+         prefix="rendition: http://www.idpf.org/vocab/rendition/#"
+         unique-identifier="bookid"
+         version="3.0">
+	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
+		<dc:identifier id="bookid">7AD2E776-FE7B-4BE3-BC46-6D73BBBE1AD5</dc:identifier>
+		<meta property="dcterms:modified">2014-08-23T11:47:54Z</meta>
+		<dc:language>en</dc:language>
+		<dc:title>HTML with SVG that references PNG</dc:title>
+		<dc:creator id="creator">Jorge Hernández Valiñani</dc:creator>
+		<meta refines="#creator" property="file-as">Hernández Valiñani, Jorge</meta>
+		<dc:description>Tests on how ebook readers and browsers support HTML that contains SVG that in turn contains an image, be them encoded in the HTML file itself or referenced as external files.</dc:description>
+		<dc:date>2014</dc:date>
+		<meta property="rendition:layout">pre-paginated</meta>
+		<meta name="original-resolution" content="290x350"/>
+		<meta name="book-type" content="comic"/>
+	</metadata>
+	<manifest>
+		<item href="toc.xhtml" id="xtoc.xhtml" media-type="application/xhtml+xml" properties="nav"/>
+		<item href="01.xhtml" id="x01.xhtml" media-type="application/xhtml+xml"/>
+		<item href="02.xhtml" id="x02.xhtml" media-type="application/xhtml+xml" properties="svg"/>
+		<item href="03.xhtml" id="x03.xhtml" media-type="application/xhtml+xml" properties="svg"/>
+		<item href="04.xhtml" id="x04.xhtml" media-type="application/xhtml+xml"/>
+		<item href="05.xhtml" id="x05.xhtml" media-type="application/xhtml+xml" properties="svg"/>
+		<item href="06.xhtml" id="x06.xhtml" media-type="application/xhtml+xml"/>
+		<item href="07.xhtml" id="x07.xhtml" media-type="application/xhtml+xml"/>
+		<item href="08.xhtml" id="x08.xhtml" media-type="application/xhtml+xml"/>
+		<item href="09.xhtml" id="x09.xhtml" media-type="application/xhtml+xml"/>
+		<item href="10.xhtml" id="x10.xhtml" media-type="application/xhtml+xml"/>
+		<item href="11.xhtml" id="x11.xhtml" media-type="application/xhtml+xml" properties="svg"/>
+		<item href="12.xhtml" id="x12.xhtml" media-type="application/xhtml+xml" properties="svg"/>
+		<item href="13.xhtml" id="x13.xhtml" media-type="application/xhtml+xml" properties="svg"/>
+		<item href="image.svg" id="ximage.svg" media-type="image/svg+xml"/>
+		<item href="image-data.svg" id="ximage-data.svg" media-type="image/svg+xml"/>
+		<item href="image.png" id="ximage.png" media-type="image/png"/>
+		<item href="style.css" id="xstyle.css" media-type="text/css"/>
+	</manifest>
+	<spine>
+		<itemref idref="x01.xhtml"/>
+		<itemref idref="x02.xhtml"/>
+		<itemref idref="x03.xhtml"/>
+		<itemref idref="x04.xhtml"/>
+		<itemref idref="x05.xhtml"/>
+		<itemref idref="x06.xhtml"/>
+		<itemref idref="x07.xhtml"/>
+		<itemref idref="x08.xhtml"/>
+		<itemref idref="x09.xhtml"/>
+		<itemref idref="x10.xhtml"/>
+		<itemref idref="x11.xhtml"/>
+		<itemref idref="x12.xhtml"/>
+		<itemref idref="x13.xhtml"/>
+	</spine>
+</package>
